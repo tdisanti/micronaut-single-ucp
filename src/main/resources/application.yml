@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: demo
+datasources:
+  default: 
+    url: jdbc:oracle:thin:@//host:port/SERVICE
+    driverClassName: oracle.jdbc.pool.OracleDataSource
+    username: user
+    password: password
+    dialect: Oracle
